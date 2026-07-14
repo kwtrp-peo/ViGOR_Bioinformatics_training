@@ -1,4 +1,4 @@
-# Day 1: Introduction to Bioinformatics
+# Introduction to Bioinformatics
 
 ## Overview
 
