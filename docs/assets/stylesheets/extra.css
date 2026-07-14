@@ -1,0 +1,47 @@
+/* Cambridge-inspired styling */
+
+:root {
+  --md-primary-fg-color: #002147;      /* Oxford Blue */
+  --md-accent-fg-color: #005EB8;
+}
+
+/* Main headings */
+.md-typeset h1 {
+  color: #009485;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset h2 {
+  color: #009485;
+  border-bottom: 2px solid #E6ECF3;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* Tables */
+.md-typeset table {
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+.md-button--primary {
+  background-color: #002147;
+  border-color: #002147;
+}
+
+.md-button--primary:hover {
+  background-color: #003366;
+}
+
+/* Increase content width slightly */
+.md-grid {
+  max-width: 1400px;
+}
+/* Increase size of the logo */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 3.5rem;   /* Default is around 1.2–1.5rem */
+    width: auto;
+}

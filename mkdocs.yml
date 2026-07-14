@@ -1,0 +1,138 @@
+site_name: "ViGOR BIOINFORMATICS TRAINING"
+site_description: "Bioinformatics Training for Pathogen Genomic Surveillance and Outbreak Response"
+site_author: "ViGOR"
+site_url: "https://kwtrp-peo.github.io/ViGOR_Bioinformatics"
+repo_url: "https://github.com/kwtrp-peo/ViGOR_Bioinformatics_training"
+repo_name: "kwtrp-peo/ViGOR_Bioinformatics_training"
+
+docs_dir: docs
+
+theme:
+  name: material
+
+  # Replace with your logo later
+  logo: assets/images/logo.png
+  #favicon: assets/images/favicon.png
+
+  language: en
+
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+
+    # Navigation
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - toc.follow
+
+    # Search
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    # Code
+    - content.code.copy
+    - content.code.annotate
+
+    # Misc
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+
+markdown_extensions:
+
+  - admonition
+
+  - attr_list
+
+  - def_list
+
+  - footnotes
+
+  - md_in_html
+
+  - tables
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.snippets
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kwtrp-peo
+
+copyright: >
+  © 2026 ViGOR. All rights reserved.
+
+nav:
+
+  - Home: index.md
+
+  - Course Information:
+      - Overview: course/overview.md
+      - Course Schedule: course/schedule.md
+      - Data : course/data.md
+      - Software Installation: course/software.md
+
+  - Day 1:
+      - Introduction: day1/index.md
+
+  - Day 2:
+      - Introduction: day2/index.md
+      - Practical: day2/practical.md
+
+  - Day 3:
+      - Introduction: day3/index.md
+      - Practical: day3/practical.md
+
+  - Day 4:
+      - Introduction: day4/index.md
+      - Practical: day4/practical.md
+
+  - Day 5:
+      - Introduction: day5/index.md
+      - Practical: day5/practical.md
+
+
